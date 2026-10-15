@@ -1,6 +1,8 @@
 function validateInput(input) {
     if (!input || input.trim() === '') {
         throw new Error('Input cannot be empty');
+	if (typeof input !== 'string') {
+throw new Error('Input must be a string');
     }
     return input;
 }
