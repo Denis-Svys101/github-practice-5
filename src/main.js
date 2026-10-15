@@ -14,3 +14,4 @@ function main(input) {
     }
 }
 
+import './auth.js';
